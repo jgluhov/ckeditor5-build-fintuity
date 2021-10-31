@@ -1,0 +1,24 @@
+{
+  "name": "fintuity-editor",
+  "version": "1.0.0",
+  "description": "Fintuity's build for CKEditor",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgluhov/FintuityEditor.git"
+  },
+  "keywords": [
+    "fintuity",
+    "ckeditor",
+    "build"
+  ],
+  "author": "Evgeny Glukhov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgluhov/FintuityEditor/issues"
+  },
+  "homepage": "https://github.com/jgluhov/FintuityEditor#readme"
+}
