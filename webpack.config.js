@@ -8,6 +8,10 @@ module.exports = {
     output: {
         filename: 'index.js',
         path: path.resolve(__dirname, 'build'),
+        library: {
+            name: 'fintuityEditor',
+            type: 'umd',
+        },
     },
     plugins: [
         new CKEditorWebpackPlugin({ language: 'en' })
