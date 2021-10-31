@@ -41,9 +41,11 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
+import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 
 export default class FintuityEditor extends ClassicEditorBase {
     static builtinPlugins = [
+        Clipboard,
         RemoveFormat,
         TextTransformation,
         MediaEmbed,
