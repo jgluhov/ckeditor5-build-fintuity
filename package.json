@@ -1,6 +1,6 @@
 {
   "name": "@fintuity/fintuity-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom CKEditor5 build for Fintuity",
   "main": "build/index.js",
   "scripts": {
@@ -39,6 +39,7 @@
     "@ckeditor/ckeditor5-font": "^31.0.0",
     "@ckeditor/ckeditor5-heading": "^31.0.0",
     "@ckeditor/ckeditor5-horizontal-line": "^31.0.0",
+    "@ckeditor/ckeditor5-html-embed": "^31.0.0",
     "@ckeditor/ckeditor5-image": "^31.0.0",
     "@ckeditor/ckeditor5-link": "^31.0.0",
     "@ckeditor/ckeditor5-list": "^31.0.0",

@@ -42,6 +42,7 @@ import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalli
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
+import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 
 export default class FintuityEditor extends ClassicEditorBase {
     static builtinPlugins = [
@@ -85,7 +86,8 @@ export default class FintuityEditor extends ClassicEditorBase {
         FontBackgroundColor,
         FindAndReplace,
         SelectAll,
-        HorizontalLine
+        HorizontalLine,
+        HtmlEmbed
     ];
     static defaultConfig = {
         toolbar: [
@@ -120,6 +122,7 @@ export default class FintuityEditor extends ClassicEditorBase {
             '|',
             'link',
             '|',
+            'htmlEmbed',
             'uploadImage',
             'insertTable',
             'mediaEmbed',
