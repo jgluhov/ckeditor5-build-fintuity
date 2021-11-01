@@ -1,6 +1,6 @@
 {
   "name": "@fintuity/fintuity-editor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom CKEditor5 build for Fintuity",
   "main": "build/index.js",
   "scripts": {
